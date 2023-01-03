@@ -1,0 +1,81 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c2c2c2;
+}
+
+.header {
+    border:0px solid #ff4b4a;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;    
+    height: 5.5em;
+    width: 100%;
+    background-color: #ff4b4a;
+    color: white;
+    margin-bottom: 1em;
+}
+
+img {
+    height: 2.3em;
+    width: 3em;
+    border-top-left-radius: 15px;
+    margin: 1.5em 0em 0em 1.3em;
+}
+
+h1 {
+    display: inline;
+    position: relative;
+    top: -0.1em;
+    font-size: 2.3em;
+}
+
+.form {
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    border: 0px solid white;
+    border-radius: 15px;
+    width: 35%;
+    background-color: white;
+    height: 30em;
+}
+
+.main {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #979797; 
+}
+
+.main h2 {
+    margin: 0em;
+}
+
+label span {
+    color: red;
+}
+
+input[name] {
+    padding: 1em 12em 1em 1em;
+    border: 2px solid #dedede;
+    border-bottom-color: red;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+input::placeholder {
+    color: #979797;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 7px;
+    background-color: #00fb71;
+    color: #ffff;
+    font-size: 1.3em;
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-top: 0.7em;
+    margin-right: 0px;
+    position: fixed;
+    left: 46% ;
+}
